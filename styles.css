@@ -39,7 +39,7 @@
 
 html {
     font-family: var(--body-font);
-    font-size: 13px;
+    font-size: 16px;
     color: var(--body-font-color);
     scroll-behavior: smooth;
 }
@@ -212,7 +212,7 @@ header {
 }
 
 .sub-headline {
-    font-size: 8.5rem;
+    font-size: 6.5rem;
     font-family: var(--secondary-font);
     color: var(--secondary-font-color);
     font-weight: 100;
@@ -234,7 +234,7 @@ header {
 
 .first-letter {
     text-transform: uppercase;
-    font-size: 10.3rem;
+    font-size: 5rem;
 }
 
 .headline {
@@ -292,14 +292,15 @@ header {
 
 .headline-dark {
     color: var(--main-font-color-dark);
-    letter-spacing: .7rem;
     margin-right: -.7rem;
+    font-size: 2rem;
 }
 
 .global-headline .sub-headline {
     letter-spacing: -1px;
-    line-height: .42;
+    line-height: .7;
     margin-bottom: 1rem;
+    font-size:3rem;
 }
 
 .events-info {
@@ -313,6 +314,7 @@ header {
 .events-description p {
     line-height: 1.6;
     margin-bottom: 2.4rem;
+    font-size: 1em;
 }
 
 
@@ -415,7 +417,11 @@ footer {
         background-position: top;
     }
     section {
-        padding: 7.9rem;
+        /* padding: 7.9rem; */
+        padding-left: 15rem;
+        padding-right: 15rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .menu-toggle {
         display: none;
@@ -464,7 +470,7 @@ footer {
         flex: 1;
     }
     .padding-right {
-        padding-right: 7rem;
+        padding-right: 5rem;
     }
     /* .footer-content{
         max-width: 77.5rem;
@@ -945,7 +951,7 @@ footer {
 
 @media screen and (max-width: 400px) {
     .first-letter{
-        font-size: 7rem;
+        font-size: 5rem;
     }
     .welcome-sub-headline{
         font-size: 5rem;
